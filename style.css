@@ -10,3 +10,26 @@
 
     --font:  "Barlow Semi Condensed", sans-serif;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font);
+}
+.grid-1{
+    background: var(--Moderate-violet);
+    color: var(--White);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.grid-2{
+    background: var(--Very-dark-grayish-blue);
+    color: var(--White);
+    padding: 2rem;
+    border-radius: 8px;
+}
