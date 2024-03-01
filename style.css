@@ -19,18 +19,51 @@
 
 body {
   font-family: var(--font);
+  background: var(--Light-grayish-blue);
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.pro-pic{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
 }
 .grid-1 {
   background: var(--Moderate-violet);
   color: var(--White);
   padding: 2rem;
   border-radius: 8px;
-  position: relative;
+  grid-column: span 2;
 }
 
 .grid-2 {
   background: var(--Very-dark-grayish-blue);
   color: var(--White);
+  padding: 2rem;
+  border-radius: 8px;
+  grid-column: span 1;
+}
+.grid-3{
+  background: var(--White);
+  color: var(--Very-dark-grayish-blue);
+  padding: 2rem;
+  border-radius: 8px;
+  grid-column: span 1;
+}
+.grid-4{
+  background: var(--Very-dark-grayish-blue);
+  color: var(--White);
+  padding: 2rem;
+  border-radius: 8px;
+  grid-column: span 2;
+}
+.grid-5{
+  background: var(--White);
+  color: var(--Very-dark-grayish-blue);
   padding: 2rem;
   border-radius: 8px;
 }
