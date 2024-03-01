@@ -25,6 +25,11 @@ body {
 .container{
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+  width: 80%;
+  max-width: 1440px;
+  margin: 0 auto;
+
 }
 
 .pro-pic{
@@ -66,4 +71,6 @@ body {
   color: var(--Very-dark-grayish-blue);
   padding: 2rem;
   border-radius: 8px;
+  grid-row: span 2;
+
 }
