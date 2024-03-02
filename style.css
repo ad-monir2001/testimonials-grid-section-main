@@ -107,3 +107,20 @@ p {
   color: var(--Very-dark-darkish-blue);
   margin-top: 5px;
 }
+
+
+@media screen and (max-width: 376px) {
+  .container{
+    display: inline;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: 13px;
+  }
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-5{
+    margin: 1rem;
+  }
+}
