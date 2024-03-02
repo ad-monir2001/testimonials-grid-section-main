@@ -24,9 +24,8 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 300px);
-  grid-template-rows: repeat(2, 340px);
-  gap: 1rem;
+  grid-template: repeat(2, 340px) / repeat(4, 300px);
+  grid-gap: 1rem;
   width: 80%;
   max-width: 1440px;
   margin: 5% auto;
@@ -45,6 +44,18 @@ body {
   grid-column: 1;
   grid-column: span 2;
   grid-row: 1;
+  position: relative;
+}
+.quotation{
+  position: relative;
+  left: 360px;
+  bottom: 100px;
+  width: 140px;
+}
+
+.text-1 h1{
+  position: absolute;
+  top: 100px;
 }
 
 .grid-2 {
@@ -70,8 +81,7 @@ body {
   padding: 2rem;
   border-radius: 8px;
   grid-column: span 2;
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column: 2 / 4;
 }
 .grid-5 {
   background: var(--White);
@@ -79,8 +89,7 @@ body {
   padding: 2rem;
   border-radius: 8px;
   grid-column: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row: 1 / 3;
 }
 .profile {
   display: flex;
